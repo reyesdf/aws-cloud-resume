@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Resume by Dennis Joseph</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/kube.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/custom.min.css" />
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display+SC:700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <style>
+      .intro h1:before {
+        /* Edit this with your name or anything else */
+        content: 'Dennis Joseph Reyes';
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <div class="main-nav">
+      <div class="container">
+        <header class="group top-nav">
+          <div
+            class="navigation-toggle"
+            data-tools="navigation-toggle"
+            data-target="#navbar-1"
+          >
+            <span class="logo">DJ</span>
+          </div>
+          <nav id="navbar-1" class="navbar item-nav">
+            <ul>
+              <li class="active"><a href="#about">About</a></li>
+              <li><a href="#experiences">Experiences</a></li>
+              <li><a href="#achievements">Certifications</a></li>
+              <li><a href="#skills">Skills</a></li>
+            </ul>
+          </nav>
+        </header>
+      </div>
+    </div>
+
+    <!-- Introduction -->
+    <div class="intro section" id="about">
+      <div class="container">
+        <p>Hi, I’m Dennis Joseph</p>
+        <div class="units-row units-split wrap">
+          <div class="unit-20">
+            <img src="img/reyesdf.jpeg" alt="Avatar" />
+          </div>
+          <p>
+            I am an Information Security Compliance Analyst with experiences in
+            Web development, DevOps, and Information Security.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Work Experience -->
+    <div class="work section second" id="experiences">
+      <div class="container">
+        <h1>Work<br />Experiences</h1>
+        <ul class="work-list">
+          <li>2022-2024</li>
+          <li><a href="#">Reed Elsevier Shared Services</a></li>
+          <li>Information Security Compliance Analyst</li>
+        </ul>
+        <ul class="work-list">
+          <li>2021-2022</li>
+          <li><a href="#">Viseo BPO</a></li>
+          <li>Web Developer</li>
+          <li>DevOps Engineer</li>
+        </ul>
+        <ul class="work-list">
+          <li>2016-2021</li>
+          <li><a href="#">Reed Elsevier Shared Services</a></li>
+          <li>Information Security Compliance Analyst</li>
+          <li>Information Security Engineer</li>
+          <li>IT Support Specialist</li>
+          <li>Content Analyst</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Award & Achievements -->
+    <div class="award section second" id="achievements">
+      <div class="container">
+        <h1>Certifications</h1>
+        <ul class="award-list list-flat">
+          <li>April 2022</li>
+          <li>Attained AZ900 Azure Cloud Fundamentals certificaiton</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Technical Skills -->
+    <div class="skills section second" id="skills">
+      <div class="container">
+        <h1>Technical<br />Skills</h1>
+        <ul class="skill-list list-flat">
+          <li>Web Technology</li>
+          <li>HTML / CSS / SASS / TypeScript / Javascript</li>
+        </ul>
+        <ul class="skill-list list-flat">
+          <li>Database</li>
+          <li>MySQL / MongoDB / PostgreSQL</li>
+        </ul>
+        <ul class="skill-list list-flat">
+          <li>Frameworks</li>
+          <li>ReactJS / Django</li>
+        </ul>
+        <ul class="skill-list list-flat">
+          <li>Information Security</li>
+          <li>
+            TPRM / Risk Management/ PCI-DSS/Threat Modelling/ Secure By Design
+          </li>
+        </ul>
+        <ul class="skill-list list-flat">
+          <li>Cloud / DevOps</li>
+          <li>AWS / Azure / Jenkins / Kubernetes / Docker</li>
+        </ul>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="units-row">
+          <div class="unit-50"></div>
+          <div class="unit-50">
+            <ul class="social list-flat right">
+              <li>
+                <a href="mailto:reyes.dennisjoseph@gmail.com"
+                  ><i class="fa fa-send"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/reyesdf/"
+                  ><i class="fa fa-linkedin"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://github.com/reyesdf"
+                  ><i class="fa fa-github"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Javascript -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script src="js/kube.min.js"></script>
+    <script src="js/site.js"></script>
+    <script>
+      function newTyped() {}
+      $(function () {
+        $('#typed').typed({
+          // Change to edit type effect
+          strings: ['far northern sky', 'your galaxy', 'everywhere'],
+
+          typeSpeed: 90,
+          backDelay: 700,
+          contentType: 'html',
+          loop: !0,
+          resetCallback: function () {
+            newTyped();
+          },
+        }),
+          $('.reset').click(function () {
+            $('#typed').typed('reset');
+          });
+      });
+    </script>
+  </body>
+</html>
